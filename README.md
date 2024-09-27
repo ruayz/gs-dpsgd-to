@@ -44,4 +44,4 @@ pip install tensorboard==2.9
 
 Data
 
-- Download datasets from [https://easy.dans.knaw.nl/ui/datasets/id/easy-dataset:32357](https://github.com/tailequy/fairness_dataset/tree/main/experiments/data). 
+- Download datasets to ./data folder from [https://easy.dans.knaw.nl/ui/datasets/id/easy-dataset:32357](https://github.com/tailequy/fairness_dataset/tree/main/experiments/data). 

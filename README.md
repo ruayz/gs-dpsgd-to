@@ -42,27 +42,6 @@ pip install tensorboard==2.9
 
 ```
 
-Scripts to reproduce experiments located at experiment_scripts, results saved to runs.
+Data
 
-```
-bash ./experiment_scripts/mnist_script.sh
-tensorboard --logdir=runs
-```
-
-- Download CelebA dataset from https://www.kaggle.com/datasets/jessicali9530/celeba-dataset and save files to
-  fair-dp/data/celeba/
-
-- Download Adult dataset from https://archive.ics.uci.edu/ml/datasets/Adult and save files adult.data, adult.test to
-  fair-dp/data/adult/
-
-```
-bash ./experiment_scripts/adult_script.sh
-```
-
-- Download Dutch dataset from https://easy.dans.knaw.nl/ui/datasets/id/easy-dataset:32357. Free registration is required
-  on the website. Under the "Data Files" tab download all files. Unzip and save to fair-dp/data/dutch/. Full file path
-  required is ./fair-dp/data/dutch/original/org/IPUMS2001.asc
-
-```
-bash ./experiment_scripts/dutch_script.sh
-```
+- Download datasets from [https://easy.dans.knaw.nl/ui/datasets/id/easy-dataset:32357](https://github.com/tailequy/fairness_dataset/tree/main/experiments/data). 

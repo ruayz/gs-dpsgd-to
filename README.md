@@ -1,4 +1,4 @@
-# Fair-DP
+# GS-DP-SGD-TO
 This is the codebase accompanying the paper: Towards Private and Fair Machine Learning: Group-Specific Differentially Private Stochastic Gradient Descent with Threshold Optimization.
 ## Prerequisites
 

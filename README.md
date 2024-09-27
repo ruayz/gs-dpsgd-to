@@ -1,5 +1,5 @@
 # Fair-DP
-This is the codebase accompanying the paper [Disparate Impact in Differential Privacy from Gradient Misalignment](https://arxiv.org/abs/2206.07737). It was accepted for a spotlight presentation in ICLR 2023 and you can check the [open review](https://openreview.net/forum?id=qLOaeRvteqbx).
+This is the codebase accompanying the paper: Towards Private and Fair Machine Learning: Group-Specific Differentially Private Stochastic Gradient Descent with Threshold Optimization.
 ## Prerequisites
 
 - Install conda, pip
@@ -42,7 +42,7 @@ pip install tensorboard==2.9
 
 ```
 
-Scripts to reproduce experiments located at fair-dp/experiment_scripts, results saved to fair-dp/runs.
+Scripts to reproduce experiments located at experiment_scripts, results saved to runs.
 
 ```
 bash ./experiment_scripts/mnist_script.sh

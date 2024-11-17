@@ -427,5 +427,5 @@ if __name__ == "__main__":
         for m in method:
             for i in range(len(dataset)):
 
-                args = param(m, dataset[i], target_epsilon[i], p, seed)
+                args = param(m, dataset[i], target_epsilon[i], None, seed)
                 main(args)
